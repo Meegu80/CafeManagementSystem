@@ -8,6 +8,17 @@ public class Human {
 
     //생성자
     public Human(){
+
         System.out.println("여기는 Human 클래스 생성자");
     }
+
+    // 추가 생성자(생성자 오버로딩 : 같은 이름의 생성자)
+    public Human(String s, String n, int g){
+
+        ssn = s;
+        name = n;
+        age = g;
+
+    }
+
 }
